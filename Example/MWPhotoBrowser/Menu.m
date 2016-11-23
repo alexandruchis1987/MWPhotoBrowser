@@ -1123,6 +1123,14 @@
     browser.startOnGrid = startOnGrid;
     browser.enableSwipeToDismiss = NO;
     browser.autoPlayOnAppear = autoPlayOnAppear;
+    
+    //SetAppearance 
+    browser.tintColor = [UIColor greenColor];
+    browser.tintBarColor = [UIColor whiteColor];
+    browser.barStyle = UIStatusBarStyleDefault;
+    browser.contentBackGroundColor = [UIColor whiteColor];
+    browser.navBarTitleColor = [UIColor blackColor];
+    
     [browser setCurrentPhotoIndex:0];
     
     // Test custom selection images
