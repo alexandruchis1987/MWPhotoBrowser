@@ -57,7 +57,7 @@
         _loadingIndicator.roundedCorners = NO;
 		_loadingIndicator.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin |
         UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleRightMargin;
-        _loadingIndicator.innerTintColor = [UIColor lightGrayColor];
+        _loadingIndicator.trackTintColor = [UIColor lightGrayColor];
         _loadingIndicator.progressTintColor = [UIColor darkGrayColor];
         
 		[self addSubview:_loadingIndicator];
