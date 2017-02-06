@@ -67,6 +67,9 @@
         _loadingIndicator.userInteractionEnabled = NO;
         _loadingIndicator.thicknessRatio = 0.1;
         _loadingIndicator.roundedCorners = NO;
+        _loadingIndicator.innerTintColor = [UIColor lightGrayColor];
+        _loadingIndicator.progressTintColor = [UIColor darkGrayColor];
+        
 		[self addSubview:_loadingIndicator];
         
         // Listen for photo loading notifications
